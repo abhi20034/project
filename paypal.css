@@ -98,6 +98,17 @@
     background-color: #062A78;
     height: 115px;
 }
+@media(min-width:577px) and (max-width:768px) /*small device*/
+{
+   .ii{
+    height: 180px;
+   }
+}
+@media (min-width:769px) and (max-width:992px){ /*medium device*/
+    .ii{
+        height: 150px;
+    }
+}
 .data{
     text-align: center;
     font-size: 25px;
